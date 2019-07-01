@@ -1,0 +1,390 @@
+.app{
+    height: 100%;
+}
+
+.main-content{
+    height: 100%;
+}
+
+.welcome-background-image-shown{
+    margin-top: 55px;
+    width: 100%
+    
+}
+
+.welcome-background-image-not-shown{
+    display: none
+}
+
+.greeting-text{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.welcome-login-form{
+    text-align: center;
+
+}
+
+.welcome-login-input-box{
+    padding: 0 0.5rem;
+    font-size: 1.1rem;
+    margin-right: 5px;
+    border-radius: 4px;
+    height: 30px;
+    margin-top: 20px;
+
+}
+
+.welcome-login-button{
+    background-image: linear-gradient(#44dd88, #2eb489);
+    -moz-background-image: linear-gradient(#44dd88, #2eb489);
+    -webkit-background-image: linear-gradient(#44dd88, #2eb489);
+    background-color: #44dd88;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-family: "Helvetica";
+    font-weight: 100;
+	font-size: 1.3rem;
+	padding: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.welcome-login-button:hover{
+    background-image: linear-gradient(#61eb9f, #44dd88);
+    background-color: #61eb9f;
+}
+
+.content{
+    
+    margin-top: 65px;
+    text-align: center;
+    max-width: 500px;
+    margin:65px auto;
+    color: white;
+}
+
+.home-and-about-content{
+    
+    text-align: center;
+    max-width: 500px;
+    margin:65px auto;
+    color: white;
+}
+
+.home-and-about-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 75px;
+    font-size: 50px;
+}
+
+.home-and-about-content p{
+    font-size: 23px;
+}
+.vote-page-wraper{
+    margin-bottom: 200px;
+}
+
+.vote-content{
+    
+    text-align: center;
+    color: white;
+}
+
+.vote-content h1{
+    font-family: arial;
+    margin-top: 75px;
+    font-size: 50px;
+}
+
+.vote-content p{
+    max-width: 500px;
+    font-size: 23px;
+    margin:65px auto;
+}
+
+.vote-content ul{
+    align-items: center
+}
+
+.vote-content li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-bottom: 4px
+
+}
+
+.radio-buttons{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+    width: 3rem
+}
+
+.vote-content label{
+    font-size: 20px
+}
+
+.vote-content input{
+    padding: 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+.other-input-box {
+    border-radius: 4px;
+    height: 25px;
+    float: left;
+    margin-left: 10px
+}
+
+.vote-content button{
+    background-image: linear-gradient(#44dd88, #2eb489);
+    -moz-background-image: linear-gradient(#44dd88, #2eb489);
+    -webkit-background-image: linear-gradient(#44dd88, #2eb489);
+    background-color: #44dd88;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-family: "Helvetica";
+    font-weight: 100;
+	font-size: 1.3rem;
+	padding: 5px;
+    text-decoration: none;
+
+    margin-top: 20px;
+    margin-bottom: 110px;
+    float: left;
+    margin-left: 80px
+    
+}
+
+.vote-content button:hover{
+    background-image: linear-gradient(#61eb9f, #44dd88);
+    background-color: #61eb9f;
+}
+
+
+
+.bar-chart{
+    margin-top: 50px;
+    
+    
+}
+
+
+.signup-background{
+    
+    height:100vh
+}
+
+.signup-page-content{
+    text-align: center;
+    max-width: 500px;
+    margin:180px auto;  
+}
+
+.signup-page-content h1{
+    /* margin-top: 200px; */
+    color: rgb(5, 5, 92)
+}
+
+.signup-page-content input{
+    padding: 0.3rem 0;
+    font-size: 1.1rem;
+
+}
+
+.signup-page-content p{
+    color:blue;
+    font-size: 20px;
+    
+}
+
+.signup-input-box{
+    margin-top: 10px;;
+    border-radius: 5px;
+}
+
+.sign-up-button{
+    margin-top: 20px;
+    background-image: linear-gradient(#44dd88, #2eb489);
+    -moz-background-image: linear-gradient(#44dd88, #2eb489);
+    -webkit-background-image: linear-gradient(#44dd88, #2eb489);
+    background-color: #44dd88;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-family: "Helvetica";
+    font-weight: 100;
+	font-size: 1.3rem;
+	padding: 5px;
+    text-decoration: none;
+}
+
+.sign-up-button:hover{
+    background-image: linear-gradient(#61eb9f, #44dd88);
+    background-color: #61eb9f;
+}
+
+.meme-content{
+    margin-top: 65px;
+    text-align: center;
+    max-width: 800px;
+    margin:65px auto;
+    color: white;
+}
+
+.meme-content input{
+    
+    padding: 0.3rem 1rem;
+    font-size: 1.2rem;
+}
+
+.meme-content button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(#44dd88, #2eb489);
+    -moz-background-image: linear-gradient(#44dd88, #2eb489);
+    -webkit-background-image: linear-gradient(#44dd88, #2eb489);
+    background-color: #44dd88;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-family: "Helvetica";
+    font-weight: 100;
+	font-size: 1.3rem;
+	padding: 5px;
+    text-decoration: none;
+
+}
+
+.meme-content button:hover{
+    background-image: linear-gradient(#61eb9f, #44dd88);
+    background-color: #61eb9f;
+
+}
+
+.meme-input-box{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 250px;
+    margin-right: 10px
+
+}
+
+.meme{
+    
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.meme img{
+    
+    width: 100%
+}
+
+.meme h2 {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000
+}
+
+.meme .top{
+    top:0;
+}
+
+.meme .bottom{
+    bottom: 0;
+}
+
+.meme-header{
+    height: 80px;
+    display: flex;
+}
+
+.meme-header img{
+    margin-top: 20px;
+    height: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    bottom: 0;
+}
+
+.meme-header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 50px;
+}
+
+@media (min-width: 1000px){
+    .vote-content{
+        margin:65px auto;
+        width: 1200px;
+    }
+    .left-content{
+        float: left;
+        align-self: center
+    }
+
+    .right-content{
+        float: right;
+    }
+}
+
+@media (min-width:1106px){
+    .greeting-text{
+        display: none;
+    }
+
+    .welcome-login-input-box{
+
+        font-size: 0.9rem;
+
+    
+    }
+}
+
+@media (max-width: 800px){
+    .meme-content p{
+        margin-top: 130px;
+    }
+
+    .other-input-box{
+        width: 160px;
+    }
+}
+

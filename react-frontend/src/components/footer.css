@@ -1,0 +1,27 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    height: 32px;
+}
+
+.footerNav {
+    display: flex;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.footer label {
+    color: white;
+    align-self: center;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 800px){
+    .footer label {
+        font-size: 0.8rem;
+    }
+    
+}
